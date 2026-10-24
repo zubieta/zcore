@@ -25,14 +25,16 @@ dnf5 install -y \
 	bat \
 	btop \
 	curl \
+	eza \
+	igt-gpu-tools \
 	jq \
 	kopia \
 	ripgrep \
+	tealdeer \
 	tree \
 	wget 
 
 # Packages not in Fedora
-# eza
 # magic-wormhole.rs
 
 # Use a COPR Example:
