@@ -25,6 +25,7 @@ dnf5 install -y \
 	bat \
 	btop \
 	curl \
+	crun-krun \
 	eza \
 	igt-gpu-tools \
 	jq \
