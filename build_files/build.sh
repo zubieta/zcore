@@ -44,6 +44,9 @@ dnf5 install -y \
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
+setcap cap_perfmon=+ep $(which btop)
+setcap cap_perfmon=+ep $(which intel_gpu_top)
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
